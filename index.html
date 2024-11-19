@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login Pages</title>
+
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <form action="login.php" method="post">
+         <div class="login_box">
+            <div class="login-header">
+               <span>Login</span>
+            </div>
+            <div class="input_box">
+               <input type="text" name="Username" id="user" class="input-field" required>
+               <label for="user" class="label">username</label>
+               <i class="bx bx-user icon"></i>
+            </div>
+            <div class="input_box">
+               <input type="password" name="Password" id="pass" class="input-field" required>
+               <label for="pass" class="label">password</label>
+               <i class="bx bx-lock-alt icon"></i>
+            </div>
+            <div class="remember-forgot">
+               <div class="remember-me">
+                  <input type="checkbox" id="remember">
+                  <label for="remember">Remember Me</label>
+               </div>
+               <div class="forgot">
+                  <a href="#">forgot password?</a>
+               </div>
+            </div>
+            <div class="input_box">
+               <a href="dashboard.html">
+                  <input type="submit" id="Login" class="input-submit" value="Login">
+               </a>
+            </div>
+            <div class="register">
+               <span>Don't Have an Account? <a href="register.html"> Register Here</a></span>
+            </div>
+         </div>
+      </form>
+   </div>
+
+</body>
+
+</html>
